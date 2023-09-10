@@ -20,6 +20,9 @@ function product(arra) {
  return prod;
 }
 
+let arrarev = arra;
+arra.reverse();
+
 //let arra = [1, 8, 16, 24];
 document.write("Array is " + arra + "<br>");
 document.write("Array Sum is " + sum(arra) + "<br>");
