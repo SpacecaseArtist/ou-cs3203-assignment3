@@ -27,3 +27,4 @@ arra.reverse();
 document.write("Array is " + arra + "<br>");
 document.write("Array Sum is " + sum(arra) + "<br>");
 document.write("Array product is " + product(arra) + "<br>");
+document.write("Array in reverse is " + arrarev + "<br>");
