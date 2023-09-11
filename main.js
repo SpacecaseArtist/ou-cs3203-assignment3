@@ -23,6 +23,7 @@ function product(arra) {
 
 }
 
+//function to reverse array and save as new array 
 let arrarev = arra;
 arra.reverse();
 
