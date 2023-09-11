@@ -7,20 +7,16 @@ let arra = input.split(",").map(Number);
 
 //function to calc sum of elements in an array
 function sum(arra) {
-
  let s = 0;
  for (let i = 0; i < arra.length; i++) s += arra[i];
  return s;
-
 }
 
 //function to calc product of elements in an array
 function product(arra) {
-
  let prod = 1;
  for (i = 0; i < arra.length; i++) prod = prod * arra[i];
  return prod;
-
 }
 
 let arrarev = arra;
